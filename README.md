@@ -1,7 +1,7 @@
 # weather_app
 
 ### Demo
-[Demo of weather_app](https://mickey7799.github.io/VotingBoard/)
+[Demo of weather_app](https://mickey7799.github.io/weather_app/)
 
 ![](/demo.png)
 

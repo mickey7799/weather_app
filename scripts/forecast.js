@@ -2,11 +2,11 @@ class Forecast {
   constructor() {
     this.key = 'rvzdWxHPGrGO95fHjJOiek09Ao3P70K7';
     this.weatherURI =
-      'https://cors-anywhere.herokuapp.com/http://dataservice.accuweather.com/currentconditions/v1/';
+      'http://dataservice.accuweather.com/currentconditions/v1/';
     this.cityURI =
-      'https://cors-anywhere.herokuapp.com/http://dataservice.accuweather.com/locations/v1/cities/search';
+      'http://dataservice.accuweather.com/locations/v1/cities/search';
     this.cityNameURI =
-      'https://cors-anywhere.herokuapp.com/https://api.bigdatacloud.net/data/reverse-geocode-client';
+      'http://api.bigdatacloud.net/data/reverse-geocode-client';
   }
   async updateCity(city) {
     const cityDets = await this.getCity(city);

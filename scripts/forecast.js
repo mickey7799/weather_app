@@ -2,11 +2,11 @@ class Forecast {
   constructor() {
     this.key = 'rvzdWxHPGrGO95fHjJOiek09Ao3P70K7';
     this.weatherURI =
-      'http://dataservice.accuweather.com/currentconditions/v1/';
+      'https://dataservice.accuweather.com/currentconditions/v1/';
     this.cityURI =
-      'http://dataservice.accuweather.com/locations/v1/cities/search';
+      'https://dataservice.accuweather.com/locations/v1/cities/search';
     this.cityNameURI =
-      'http://api.bigdatacloud.net/data/reverse-geocode-client';
+      'https://api.bigdatacloud.net/data/reverse-geocode-client';
   }
   async updateCity(city) {
     const cityDets = await this.getCity(city);
